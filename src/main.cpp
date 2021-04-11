@@ -4,7 +4,7 @@
 //Check https://www.arduino.cc/en/reference/SPI for SPI signals connections
 
 #define UART_BAUDRATE       115200        //UART data rate in bits per second (baud)
-#define SPI_SCLK_FREQUENCY  10000000      //SPI SCLK Clock frequency in Hz
+#define SPI_SCLK_FREQUENCY  300000        //SPI SCLK Clock frequency in Hz
 #define SPI_CS_PIN          7             //SPI CS pin
 
 MagAlpha magAlpha;
@@ -12,6 +12,8 @@ MagAlpha magAlpha;
 void setup() {
   // put your setup code here, to run once:
   //Set the SPI SCLK frequency, SPI Mode and CS pin
+  // The frequency can go up to 10MHz, or even more, but the signal path must be very short.
+  // If you plan to connect the sensor breakout using jumper wires, a frequence less than 1MHz is recommended.
   magAlpha.begin(SPI_SCLK_FREQUENCY, MA_SPI_MODE_3, SPI_CS_PIN);
   //Set the Serial Communication used to report the angle
   Serial.begin(UART_BAUDRATE);
