@@ -7,4 +7,6 @@ Monitor baud rate is 115200.
 
 Board schematic and layout files are in [hardware/](./hardware)
 
+An example usable with the Arduino IDE is in [Arduino/](./Arduino)
+
 
