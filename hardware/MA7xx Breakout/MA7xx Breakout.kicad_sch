@@ -660,6 +660,7 @@
     )
   )
 
+
   (junction (at 62.23 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 18faa24a-d616-42d4-8b98-314e2e5e2f8a)
   )
@@ -1026,7 +1027,7 @@
   )
 
   (symbol (lib_id "MA702-eagle-import:PINHD-1X06_2.54-S") (at 242.57 69.215 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0393977c-e9b3-41eb-84f1-a48cc1dbaebb)
     (property "Reference" "JP1" (at 236.22 58.42 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
@@ -1142,7 +1143,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 239.395 170.815 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2615cc14-6e1d-4cfb-80be-5b890dda9c31)
     (property "Reference" "H1" (at 242.57 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1246,7 +1247,7 @@
   )
 
   (symbol (lib_id "MA702-eagle-import:PINHD-1X02_2.54-S") (at 242.57 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 477b5224-6843-49fe-a35b-d77d37282bd7)
     (property "Reference" "JP3" (at 236.22 137.795 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
@@ -1577,7 +1578,7 @@
     (property "Reference" "FLEX1" (at 238.76 22.6273 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x06_Male" (at 238.76 25.4024 0)
+    (property "Value" "SM06B-GHS-TB" (at 238.76 25.4024 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 239.395 31.75 0)
@@ -1607,7 +1608,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 239.395 182.245 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4103575-50a8-47fb-b8dc-7c3b5a88ac5a)
     (property "Reference" "H2" (at 242.57 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1656,7 +1657,7 @@
   )
 
   (symbol (lib_id "MA702-eagle-import:PINHD-1X06_2.54-S") (at 242.57 109.855 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bcf10613-d27e-4d2d-81c6-371e4de84f2f)
     (property "Reference" "JP2" (at 236.22 99.06 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
